@@ -1,6 +1,11 @@
 
-.carousel {
+.carousel-inner {
   height: 500px;
+  width: 1440px;
   position: relative;
   overflow: hidden;
+}
+
+.carousel-inner img {
+  background-color: lightblue;
 }
