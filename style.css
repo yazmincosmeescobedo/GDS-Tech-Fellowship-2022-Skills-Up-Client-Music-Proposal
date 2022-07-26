@@ -1,0 +1,47 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+
+.page-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+ 
+
+.page-link-item{
+    font-family: Arial,sans-serif;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+
+a:link { text-decoration: none; color: black;}
+
+a:visited { text-decoration: none; color: black;}
+
+a:hover { text-decoration: none; color: black;}
+
+a:active { text-decoration: none; color: black;}
+
+
+.site-header{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: auto;
+    vertical-align: middle;
+    margin: 5px 0;
+}
