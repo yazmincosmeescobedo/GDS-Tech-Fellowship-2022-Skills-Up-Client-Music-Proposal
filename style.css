@@ -63,8 +63,8 @@ a:active { text-decoration: none; color: white;}
 
 
 .carousel-inner {
-  height: 100px;
-  width: 100px;
+  height: 500px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
