@@ -73,6 +73,12 @@ a:active { text-decoration: none; color: white;}
   background-color: lightblue;
 }
 
+.shop-now{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: -58px;
+}
 .column {
     float: left;
     width: 25%;
