@@ -73,6 +73,21 @@ a:active { text-decoration: none; color: white;}
   background-color: lightblue;
 }
 
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 .footer {
     position: relative;
     left: 0;
