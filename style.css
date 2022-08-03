@@ -73,6 +73,40 @@ a:active { text-decoration: none; color: white;}
   background-color: lightblue;
 }
 
+/* Home Biography*/
+.biography{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  margin: 10rem auto;  
+  background-color: black;
+  
+}
+
+.biography img{
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+}
+
+.biography h3{
+  margin: 0;
+ 
+}
+.biography p{
+
+  font-size: 20px;
+  font-family: 'Open Sans';
+}
+
+.bio-text{
+ color: white;
+}
+
+/* Home Biography*/
+
+
 .shop-now{
   text-align: center;
   position: relative;
@@ -86,10 +120,6 @@ a:active { text-decoration: none; color: white;}
     padding: 5px;
     text-align: center;
   }
-
-
-  /* Tour Page */ 
-
 
   .tour-header{
     bottom: 0;
