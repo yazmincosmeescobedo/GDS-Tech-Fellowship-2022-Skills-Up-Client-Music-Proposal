@@ -141,7 +141,34 @@ a:active { text-decoration: none; color: white;}
     display: table;
   }
 
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/WSQYGU34VBGM3OXVHQKFBYVCGY.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -50px;
+  }
+  
+  .hero-text {
+    position: relative;
+    color: #fcfafc3a;
+    padding-top: 150px;
+    margin:50px;
+  }
 
+  .background-color {
+    background-color: black;
+  }
+
+  .background-color h3 {
+    color: white;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  
   .spotify-embed-albums {
     left: 0;
     width: 80%;
